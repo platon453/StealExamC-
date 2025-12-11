@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище VANYAKRUTOIModelContainer" CdmEntityContainer="VANYAKRUTOIEntities">
+    <EntitySetMapping Name="Materials">
+      <EntityTypeMapping TypeName="VANYAKRUTOIModel.Materials">
+        <MappingFragment StoreEntitySet="Materials">
+          <ScalarProperty Name="MaterialID" ColumnName="MaterialID" />
+          <ScalarProperty Name="MaterialName" ColumnName="MaterialName" />
+          <ScalarProperty Name="MaterialTypeID" ColumnName="MaterialTypeID" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="QuantityInStock" ColumnName="QuantityInStock" />
+          <ScalarProperty Name="NinQuantity" ColumnName="NinQuantity" />
+          <ScalarProperty Name="CountInPack" ColumnName="CountInPack" />
+          <ScalarProperty Name="UnitID" ColumnName="UnitID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MaterialTypes">
+      <EntityTypeMapping TypeName="VANYAKRUTOIModel.MaterialTypes">
+        <MappingFragment StoreEntitySet="MaterialTypes">
+          <ScalarProperty Name="MaterialTypeID" ColumnName="MaterialTypeID" />
+          <ScalarProperty Name="MaterialType" ColumnName="MaterialType" />
+          <ScalarProperty Name="PercentLoss" ColumnName="PercentLoss" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProductTypes">
+      <EntityTypeMapping TypeName="VANYAKRUTOIModel.ProductTypes">
+        <MappingFragment StoreEntitySet="ProductTypes">
+          <ScalarProperty Name="ProductTypeID" ColumnName="ProductTypeID" />
+          <ScalarProperty Name="ProductType" ColumnName="ProductType" />
+          <ScalarProperty Name="ProductTypeCoef" ColumnName="ProductTypeCoef" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Suppliers">
+      <EntityTypeMapping TypeName="VANYAKRUTOIModel.Suppliers">
+        <MappingFragment StoreEntitySet="Suppliers">
+          <ScalarProperty Name="SupplierID" ColumnName="SupplierID" />
+          <ScalarProperty Name="SupplierName" ColumnName="SupplierName" />
+          <ScalarProperty Name="SupplierTypeID" ColumnName="SupplierTypeID" />
+          <ScalarProperty Name="INN" ColumnName="INN" />
+          <ScalarProperty Name="Rating" ColumnName="Rating" />
+          <ScalarProperty Name="BeginDate" ColumnName="BeginDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SupplierTypes">
+      <EntityTypeMapping TypeName="VANYAKRUTOIModel.SupplierTypes">
+        <MappingFragment StoreEntitySet="SupplierTypes">
+          <ScalarProperty Name="SupplierTypeID" ColumnName="SupplierTypeID" />
+          <ScalarProperty Name="SupplierType" ColumnName="SupplierType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Units">
+      <EntityTypeMapping TypeName="VANYAKRUTOIModel.Units">
+        <MappingFragment StoreEntitySet="Units">
+          <ScalarProperty Name="UnitID" ColumnName="UnitID" />
+          <ScalarProperty Name="Unit" ColumnName="Unit" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserRole">
+      <EntityTypeMapping TypeName="VANYAKRUTOIModel.UserRole">
+        <MappingFragment StoreEntitySet="UserRole">
+          <ScalarProperty Name="UserRoleID" ColumnName="UserRoleID" />
+          <ScalarProperty Name="UserRole1" ColumnName="UserRole" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="VANYAKRUTOIModel.Users">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="UserRoleID" ColumnName="UserRoleID" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="Login" ColumnName="Login" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="MaterialsSuppliers" TypeName="VANYAKRUTOIModel.MaterialsSuppliers" StoreEntitySet="MaterialsSuppliers">
+      <EndProperty Name="Materials">
+        <ScalarProperty Name="MaterialID" ColumnName="MaterialID" />
+      </EndProperty>
+      <EndProperty Name="Suppliers">
+        <ScalarProperty Name="SupplierID" ColumnName="SupplierID" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

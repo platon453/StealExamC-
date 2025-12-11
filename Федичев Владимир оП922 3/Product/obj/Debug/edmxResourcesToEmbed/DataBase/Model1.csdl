@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="VANYAKRUTOIModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Materials">
+    <Key>
+      <PropertyRef Name="MaterialID" />
+    </Key>
+    <Property Name="MaterialID" Type="Int32" Nullable="false" />
+    <Property Name="MaterialName" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="MaterialTypeID" Type="Int32" />
+    <Property Name="Price" Type="Double" />
+    <Property Name="QuantityInStock" Type="Double" />
+    <Property Name="NinQuantity" Type="Double" />
+    <Property Name="CountInPack" Type="Double" />
+    <Property Name="UnitID" Type="Int32" />
+    <NavigationProperty Name="MaterialTypes" Relationship="Self.FK_Materials_MaterialTypes" FromRole="Materials" ToRole="MaterialTypes" />
+    <NavigationProperty Name="Units" Relationship="Self.FK_Materials_Units" FromRole="Materials" ToRole="Units" />
+    <NavigationProperty Name="Suppliers" Relationship="Self.MaterialsSuppliers" FromRole="Materials" ToRole="Suppliers" />
+  </EntityType>
+  <EntityType Name="MaterialTypes">
+    <Key>
+      <PropertyRef Name="MaterialTypeID" />
+    </Key>
+    <Property Name="MaterialTypeID" Type="Int32" Nullable="false" />
+    <Property Name="MaterialType" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="PercentLoss" Type="Double" />
+    <NavigationProperty Name="Materials" Relationship="Self.FK_Materials_MaterialTypes" FromRole="MaterialTypes" ToRole="Materials" />
+  </EntityType>
+  <EntityType Name="ProductTypes">
+    <Key>
+      <PropertyRef Name="ProductTypeID" />
+    </Key>
+    <Property Name="ProductTypeID" Type="Int32" Nullable="false" />
+    <Property Name="ProductType" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="ProductTypeCoef" Type="Double" />
+  </EntityType>
+  <EntityType Name="Suppliers">
+    <Key>
+      <PropertyRef Name="SupplierID" />
+    </Key>
+    <Property Name="SupplierID" Type="Int32" Nullable="false" />
+    <Property Name="SupplierName" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="SupplierTypeID" Type="Int32" />
+    <Property Name="INN" Type="Double" />
+    <Property Name="Rating" Type="Double" />
+    <Property Name="BeginDate" Type="Double" />
+    <NavigationProperty Name="SupplierTypes" Relationship="Self.FK_Suppliers_SupplierTypes" FromRole="Suppliers" ToRole="SupplierTypes" />
+    <NavigationProperty Name="Materials" Relationship="Self.MaterialsSuppliers" FromRole="Suppliers" ToRole="Materials" />
+  </EntityType>
+  <EntityType Name="SupplierTypes">
+    <Key>
+      <PropertyRef Name="SupplierTypeID" />
+    </Key>
+    <Property Name="SupplierTypeID" Type="Int32" Nullable="false" />
+    <Property Name="SupplierType" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Suppliers" Relationship="Self.FK_Suppliers_SupplierTypes" FromRole="SupplierTypes" ToRole="Suppliers" />
+  </EntityType>
+  <EntityType Name="Units">
+    <Key>
+      <PropertyRef Name="UnitID" />
+    </Key>
+    <Property Name="UnitID" Type="Int32" Nullable="false" />
+    <Property Name="Unit" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Materials" Relationship="Self.FK_Materials_Units" FromRole="Units" ToRole="Materials" />
+  </EntityType>
+  <EntityType Name="UserRole">
+    <Key>
+      <PropertyRef Name="UserRoleID" />
+    </Key>
+    <Property Name="UserRoleID" Type="Int32" Nullable="false" />
+    <Property Name="UserRole1" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Users" Relationship="Self.FK_Users_UserRole" FromRole="UserRole" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="UserID" Type="Int32" Nullable="false" />
+    <Property Name="UserRoleID" Type="Int32" />
+    <Property Name="FullName" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Login" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="UserRole" Relationship="Self.FK_Users_UserRole" FromRole="Users" ToRole="UserRole" />
+  </EntityType>
+  <Association Name="FK_Materials_MaterialTypes">
+    <End Role="MaterialTypes" Type="Self.MaterialTypes" Multiplicity="0..1" />
+    <End Role="Materials" Type="Self.Materials" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MaterialTypes">
+        <PropertyRef Name="MaterialTypeID" />
+      </Principal>
+      <Dependent Role="Materials">
+        <PropertyRef Name="MaterialTypeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Materials_Units">
+    <End Role="Units" Type="Self.Units" Multiplicity="0..1" />
+    <End Role="Materials" Type="Self.Materials" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Units">
+        <PropertyRef Name="UnitID" />
+      </Principal>
+      <Dependent Role="Materials">
+        <PropertyRef Name="UnitID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Suppliers_SupplierTypes">
+    <End Role="SupplierTypes" Type="Self.SupplierTypes" Multiplicity="0..1" />
+    <End Role="Suppliers" Type="Self.Suppliers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SupplierTypes">
+        <PropertyRef Name="SupplierTypeID" />
+      </Principal>
+      <Dependent Role="Suppliers">
+        <PropertyRef Name="SupplierTypeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Users_UserRole">
+    <End Role="UserRole" Type="Self.UserRole" Multiplicity="0..1" />
+    <End Role="Users" Type="Self.Users" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserRole">
+        <PropertyRef Name="UserRoleID" />
+      </Principal>
+      <Dependent Role="Users">
+        <PropertyRef Name="UserRoleID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="MaterialsSuppliers">
+    <End Role="Materials" Type="Self.Materials" Multiplicity="*" />
+    <End Role="Suppliers" Type="Self.Suppliers" Multiplicity="*" />
+  </Association>
+  <EntityContainer Name="VANYAKRUTOIEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Materials" EntityType="Self.Materials" />
+    <EntitySet Name="MaterialTypes" EntityType="Self.MaterialTypes" />
+    <EntitySet Name="ProductTypes" EntityType="Self.ProductTypes" />
+    <EntitySet Name="Suppliers" EntityType="Self.Suppliers" />
+    <EntitySet Name="SupplierTypes" EntityType="Self.SupplierTypes" />
+    <EntitySet Name="Units" EntityType="Self.Units" />
+    <EntitySet Name="UserRole" EntityType="Self.UserRole" />
+    <EntitySet Name="Users" EntityType="Self.Users" />
+    <AssociationSet Name="FK_Materials_MaterialTypes" Association="Self.FK_Materials_MaterialTypes">
+      <End Role="MaterialTypes" EntitySet="MaterialTypes" />
+      <End Role="Materials" EntitySet="Materials" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Materials_Units" Association="Self.FK_Materials_Units">
+      <End Role="Units" EntitySet="Units" />
+      <End Role="Materials" EntitySet="Materials" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Suppliers_SupplierTypes" Association="Self.FK_Suppliers_SupplierTypes">
+      <End Role="SupplierTypes" EntitySet="SupplierTypes" />
+      <End Role="Suppliers" EntitySet="Suppliers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Users_UserRole" Association="Self.FK_Users_UserRole">
+      <End Role="UserRole" EntitySet="UserRole" />
+      <End Role="Users" EntitySet="Users" />
+    </AssociationSet>
+    <AssociationSet Name="MaterialsSuppliers" Association="Self.MaterialsSuppliers">
+      <End Role="Materials" EntitySet="Materials" />
+      <End Role="Suppliers" EntitySet="Suppliers" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,208 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\DemExam\\ForPolina\\\u0424\u0435\u0434\u0438\u0447\u0435\u0432 \u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440 \u043E\u041F922 3\\Product\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{14B656B5-270D-40F7-815D-026203207093}|Product.csproj|d:\\demexam\\forpolina\\\u0444\u0435\u0434\u0438\u0447\u0435\u0432 \u0432\u043B\u0430\u0434\u0438\u043C\u0438\u0440 \u043E\u043F922 3\\product\\productwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14B656B5-270D-40F7-815D-026203207093}|Product.csproj|solutionrelative:productwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14B656B5-270D-40F7-815D-026203207093}|Product.csproj|D:\\DemExam\\ForPolina\\\u0424\u0435\u0434\u0438\u0447\u0435\u0432 \u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440 \u043E\u041F922 3\\Product\\pages\\supplierpages.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14B656B5-270D-40F7-815D-026203207093}|Product.csproj|solutionrelative:pages\\supplierpages.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14B656B5-270D-40F7-815D-026203207093}|Product.csproj|D:\\DemExam\\ForPolina\\\u0424\u0435\u0434\u0438\u0447\u0435\u0432 \u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440 \u043E\u041F922 3\\Product\\pages\\supplierpages.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{14B656B5-270D-40F7-815D-026203207093}|Product.csproj|solutionrelative:pages\\supplierpages.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14B656B5-270D-40F7-815D-026203207093}|Product.csproj|D:\\DemExam\\ForPolina\\\u0424\u0435\u0434\u0438\u0447\u0435\u0432 \u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440 \u043E\u041F922 3\\Product\\pages\\materiapages.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14B656B5-270D-40F7-815D-026203207093}|Product.csproj|solutionrelative:pages\\materiapages.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14B656B5-270D-40F7-815D-026203207093}|Product.csproj|D:\\DemExam\\ForPolina\\\u0424\u0435\u0434\u0438\u0447\u0435\u0432 \u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440 \u043E\u041F922 3\\Product\\pages\\materiapages.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{14B656B5-270D-40F7-815D-026203207093}|Product.csproj|solutionrelative:pages\\materiapages.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14B656B5-270D-40F7-815D-026203207093}|Product.csproj|D:\\DemExam\\ForPolina\\\u0424\u0435\u0434\u0438\u0447\u0435\u0432 \u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440 \u043E\u041F922 3\\Product\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14B656B5-270D-40F7-815D-026203207093}|Product.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14B656B5-270D-40F7-815D-026203207093}|Product.csproj|D:\\DemExam\\ForPolina\\\u0424\u0435\u0434\u0438\u0447\u0435\u0432 \u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440 \u043E\u041F922 3\\Product\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{14B656B5-270D-40F7-815D-026203207093}|Product.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14B656B5-270D-40F7-815D-026203207093}|Product.csproj|D:\\DemExam\\ForPolina\\\u0424\u0435\u0434\u0438\u0447\u0435\u0432 \u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440 \u043E\u041F922 3\\Product\\productwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{14B656B5-270D-40F7-815D-026203207093}|Product.csproj|solutionrelative:productwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14B656B5-270D-40F7-815D-026203207093}|Product.csproj|D:\\DemExam\\ForPolina\\\u0424\u0435\u0434\u0438\u0447\u0435\u0432 \u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440 \u043E\u041F922 3\\Product\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14B656B5-270D-40F7-815D-026203207093}|Product.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14B656B5-270D-40F7-815D-026203207093}|Product.csproj|D:\\DemExam\\ForPolina\\\u0424\u0435\u0434\u0438\u0447\u0435\u0432 \u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440 \u043E\u041F922 3\\Product\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{14B656B5-270D-40F7-815D-026203207093}|Product.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14B656B5-270D-40F7-815D-026203207093}|Product.csproj|D:\\DemExam\\ForPolina\\\u0424\u0435\u0434\u0438\u0447\u0435\u0432 \u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440 \u043E\u041F922 3\\Product\\statics\\currentsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14B656B5-270D-40F7-815D-026203207093}|Product.csproj|solutionrelative:statics\\currentsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14B656B5-270D-40F7-815D-026203207093}|Product.csproj|D:\\DemExam\\ForPolina\\\u0424\u0435\u0434\u0438\u0447\u0435\u0432 \u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440 \u043E\u041F922 3\\Product\\database\\suppliers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14B656B5-270D-40F7-815D-026203207093}|Product.csproj|solutionrelative:database\\suppliers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductWindow.xaml.cs",
+              "DocumentMoniker": "D:\\DemExam\\ForPolina\\\u0424\u0435\u0434\u0438\u0447\u0435\u0432 \u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440 \u043E\u041F922 3\\Product\\ProductWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ProductWindow.xaml.cs",
+              "ToolTip": "D:\\DemExam\\ForPolina\\\u0424\u0435\u0434\u0438\u0447\u0435\u0432 \u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440 \u043E\u041F922 3\\Product\\ProductWindow.xaml.cs",
+              "RelativeToolTip": "ProductWindow.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAADsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T17:37:15.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MateriaPages.xaml",
+              "DocumentMoniker": "D:\\DemExam\\ForPolina\\\u0424\u0435\u0434\u0438\u0447\u0435\u0432 \u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440 \u043E\u041F922 3\\Product\\Pages\\MateriaPages.xaml",
+              "RelativeDocumentMoniker": "Pages\\MateriaPages.xaml",
+              "ToolTip": "D:\\DemExam\\ForPolina\\\u0424\u0435\u0434\u0438\u0447\u0435\u0432 \u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440 \u043E\u041F922 3\\Product\\Pages\\MateriaPages.xaml",
+              "RelativeToolTip": "Pages\\MateriaPages.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-11T17:33:22.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\DemExam\\ForPolina\\\u0424\u0435\u0434\u0438\u0447\u0435\u0432 \u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440 \u043E\u041F922 3\\Product\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "D:\\DemExam\\ForPolina\\\u0424\u0435\u0434\u0438\u0447\u0435\u0432 \u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440 \u043E\u041F922 3\\Product\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T17:33:14.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\DemExam\\ForPolina\\\u0424\u0435\u0434\u0438\u0447\u0435\u0432 \u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440 \u043E\u041F922 3\\Product\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "D:\\DemExam\\ForPolina\\\u0424\u0435\u0434\u0438\u0447\u0435\u0432 \u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440 \u043E\u041F922 3\\Product\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-11T17:28:42.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductWindow.xaml",
+              "DocumentMoniker": "D:\\DemExam\\ForPolina\\\u0424\u0435\u0434\u0438\u0447\u0435\u0432 \u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440 \u043E\u041F922 3\\Product\\ProductWindow.xaml",
+              "RelativeDocumentMoniker": "ProductWindow.xaml",
+              "ToolTip": "D:\\DemExam\\ForPolina\\\u0424\u0435\u0434\u0438\u0447\u0435\u0432 \u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440 \u043E\u041F922 3\\Product\\ProductWindow.xaml",
+              "RelativeToolTip": "ProductWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-11T17:27:07.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MateriaPages.xaml.cs",
+              "DocumentMoniker": "D:\\DemExam\\ForPolina\\\u0424\u0435\u0434\u0438\u0447\u0435\u0432 \u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440 \u043E\u041F922 3\\Product\\Pages\\MateriaPages.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\MateriaPages.xaml.cs",
+              "ToolTip": "D:\\DemExam\\ForPolina\\\u0424\u0435\u0434\u0438\u0447\u0435\u0432 \u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440 \u043E\u041F922 3\\Product\\Pages\\MateriaPages.xaml.cs",
+              "RelativeToolTip": "Pages\\MateriaPages.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T17:24:21.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SupplierPages.xaml",
+              "DocumentMoniker": "D:\\DemExam\\ForPolina\\\u0424\u0435\u0434\u0438\u0447\u0435\u0432 \u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440 \u043E\u041F922 3\\Product\\Pages\\SupplierPages.xaml",
+              "RelativeDocumentMoniker": "Pages\\SupplierPages.xaml",
+              "ToolTip": "D:\\DemExam\\ForPolina\\\u0424\u0435\u0434\u0438\u0447\u0435\u0432 \u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440 \u043E\u041F922 3\\Product\\Pages\\SupplierPages.xaml",
+              "RelativeToolTip": "Pages\\SupplierPages.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-11T17:23:28.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SupplierPages.xaml.cs",
+              "DocumentMoniker": "D:\\DemExam\\ForPolina\\\u0424\u0435\u0434\u0438\u0447\u0435\u0432 \u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440 \u043E\u041F922 3\\Product\\Pages\\SupplierPages.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\SupplierPages.xaml.cs",
+              "ToolTip": "D:\\DemExam\\ForPolina\\\u0424\u0435\u0434\u0438\u0447\u0435\u0432 \u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440 \u043E\u041F922 3\\Product\\Pages\\SupplierPages.xaml.cs",
+              "RelativeToolTip": "Pages\\SupplierPages.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T17:23:34.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\DemExam\\ForPolina\\\u0424\u0435\u0434\u0438\u0447\u0435\u0432 \u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440 \u043E\u041F922 3\\Product\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "D:\\DemExam\\ForPolina\\\u0424\u0435\u0434\u0438\u0447\u0435\u0432 \u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440 \u043E\u041F922 3\\Product\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T17:25:27.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\DemExam\\ForPolina\\\u0424\u0435\u0434\u0438\u0447\u0435\u0432 \u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440 \u043E\u041F922 3\\Product\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "D:\\DemExam\\ForPolina\\\u0424\u0435\u0434\u0438\u0447\u0435\u0432 \u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440 \u043E\u041F922 3\\Product\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-11T17:25:26.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CurrentSession.cs",
+              "DocumentMoniker": "D:\\DemExam\\ForPolina\\\u0424\u0435\u0434\u0438\u0447\u0435\u0432 \u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440 \u043E\u041F922 3\\Product\\Statics\\CurrentSession.cs",
+              "RelativeDocumentMoniker": "Statics\\CurrentSession.cs",
+              "ToolTip": "D:\\DemExam\\ForPolina\\\u0424\u0435\u0434\u0438\u0447\u0435\u0432 \u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440 \u043E\u041F922 3\\Product\\Statics\\CurrentSession.cs",
+              "RelativeToolTip": "Statics\\CurrentSession.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T17:26:33.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Suppliers.cs",
+              "DocumentMoniker": "D:\\DemExam\\ForPolina\\\u0424\u0435\u0434\u0438\u0447\u0435\u0432 \u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440 \u043E\u041F922 3\\Product\\DataBase\\Suppliers.cs",
+              "RelativeDocumentMoniker": "DataBase\\Suppliers.cs",
+              "ToolTip": "D:\\DemExam\\ForPolina\\\u0424\u0435\u0434\u0438\u0447\u0435\u0432 \u0412\u043B\u0430\u0434\u0438\u043C\u0438\u0440 \u043E\u041F922 3\\Product\\DataBase\\Suppliers.cs",
+              "RelativeToolTip": "DataBase\\Suppliers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T17:23:23.634Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

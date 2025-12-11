@@ -1,0 +1,20 @@
+﻿<Window x:Class="Product.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Product"
+        mc:Ignorable="d" Style="{StaticResource Windows}"
+        Title="Авторизация" Height="450" Width="800">
+    <Grid>
+        <Border VerticalAlignment="Center" HorizontalAlignment="Center">
+            <StackPanel Margin="40">
+                <TextBlock Text="Авторизация" Margin="20"/>
+                <TextBox x:Name="LoginEnter" Margin="5 5"/>
+                <PasswordBox x:Name="PasswordEnter" Margin="5 5"/>
+                <Button x:Name="LoginBtn" Content="Войти" Margin="20" Click="LoginBtn_Click"/>
+                <TextBlock Text="Войти как гость" FontSize="15" HorizontalAlignment="Center" Foreground="Blue" MouseDown="TextBlock_MouseDown"/>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>
